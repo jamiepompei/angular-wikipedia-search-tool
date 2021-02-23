@@ -8,7 +8,7 @@ interface WikipediaResponse{
   query:{
     search: {
       title: string;
-      snipper: string;
+      snippet: string;
       pageid: number;
     }[];
   };
